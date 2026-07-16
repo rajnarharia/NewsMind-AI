@@ -1,0 +1,92 @@
+/* Main App background */
+.stApp {
+    background: linear-gradient(135deg, #09090b, #18181b, #0f172a);
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography Enhancements */
+h1 {
+    text-align: center;
+    font-size: 3.5rem !important;
+    font-weight: 800 !important;
+    background: -webkit-linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1.5rem !important;
+}
+
+h2, h3 {
+    font-weight: 700 !important;
+    color: #f8fafc;
+}
+
+/* Glassmorphism Metric Cards */
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+[data-testid="stMetric"]:hover {
+    transform: translateY(-5px);
+    border-color: rgba(139, 92, 246, 0.5); /* Violet glow */
+}
+
+/* Styled Expanders */
+[data-testid="stExpander"] {
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+[data-testid="stExpander"]:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(59, 130, 246, 0.4); /* Blue glow */
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 12px;
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #4338ca, #6d28d9);
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Selectboxes & Text Inputs (Glass Style) */
+.stSelectbox > div > div > div, .stTextInput > div > div > input {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.stSelectbox > div > div > div:hover, .stTextInput > div > div > input:hover {
+    border-color: rgba(139, 92, 246, 0.5) !important;
+}
+
+/* Main Content Width */
+.block-container {
+    max-width: 1400px;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
