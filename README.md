@@ -122,23 +122,25 @@ News Articles / Dataset
 ```text
 NewsMind-AI/
 │
+├── 📁 assets/
+│   └── style.css
+│
+├── 📁 data/
+│   └── bbc-text.csv
+│
+├── 📁 src/
+│   ├── clustering.py
+│   ├── data_preprocessing.py
+│   ├── evaluation.py
+│   ├── model.py
+│   ├── predictor.py
+│   ├── similarity.py
+│   └── visualization.py
+│
 ├── app.py
-│
 ├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── News dataset files
-│
-├── models/
-│   └── ML model files
-│
-├── utils/
-│   └── Utility functions
-│
-└── assets/
-    └── Images and application resources
-```
+├── .gitignore
+└── README.md
 
 > The exact project structure may vary depending on the current implementation.
 
