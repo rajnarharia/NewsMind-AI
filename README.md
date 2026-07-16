@@ -142,17 +142,6 @@ NewsMind-AI/
 ├── .gitignore
 └── README.md
 
-> The exact project structure may vary depending on the current implementation.
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/rajnarharia/NewsMind-AI.git
-```
 
 ### 2️⃣ Navigate to the Project Directory
 
